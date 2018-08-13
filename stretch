@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 i=$(( RANDOM % (10 - 5 + 1 ) + 5 ))
 #echo $i;
 if [[ "$i" = "5" ]];
