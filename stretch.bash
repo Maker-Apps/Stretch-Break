@@ -1,0 +1,21 @@
+#!/bin/bash
+i=$(( RANDOM % (10 - 5 + 1 ) + 5 ))
+#echo $i;
+if [[ "$i" = "5" ]];
+then
+open 'https://youtu.be/6fnLKyRJsrs'
+elif [[ "$i" == "6" ]];
+then
+open 'https://youtu.be/6lJBZCRlFnI'
+elif [[ "$i" == "7" ]];
+then
+open 'https://youtu.be/-pqfd-g7rIM'
+elif [[ "$i" == "8" ]];
+then
+open 'https://youtu.be/vLPfP1oRJFM'
+elif [[ "$i" == "9" ]];
+then
+open 'https://youtu.be/bt6JL6IuuTs?t=47s'
+else
+open 'https://youtu.be/KgxUApuO9aU?t=25s'
+fi
